@@ -140,7 +140,7 @@ export default function Home() {
 
           {error && (
             <p className="mt-4 text-sm text-red-600">
-              Error: {error.shortMessage || error.message}
+              Error: {error.message}
             </p>
           )}
 
